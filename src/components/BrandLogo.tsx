@@ -1,0 +1,28 @@
+interface BrandLogoProps {
+  className?: string;
+}
+
+export function BrandLogo({ className = 'w-8 h-8' }: BrandLogoProps) {
+  return (
+    <svg
+      viewBox="0 0 36 36"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      aria-hidden="true"
+    >
+      <rect width="36" height="36" rx="10" fill="#0B8457" />
+      <path
+        d="M18 7.5C13.3056 7.5 9.5 11.3056 9.5 16C9.5 21.85 16.56 27.62 17.46 28.33C17.78 28.58 18.22 28.58 18.54 28.33C19.44 27.62 26.5 21.85 26.5 16C26.5 11.3056 22.6944 7.5 18 7.5Z"
+        fill="#FFFFFF"
+      />
+      <path
+        d="M14.3 15.9L16.85 18.45L21.9 13.4"
+        stroke="#0F1D2E"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+}

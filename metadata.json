@@ -1,0 +1,6 @@
+{
+  "name": "Achei Fortaleza",
+  "description": "Encontre profissionais e empresas avaliadas em Fortaleza, converse direto pelo WhatsApp e agende serviços com rapidez e segurança.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
